@@ -2,8 +2,9 @@
     "rewrites": [
       {
         "source": "/api/(.*)",
-        "destination": "https://back-end-1-wa5r.onrender.com"
+        "destination": "https://back-end-1-wa5r.onrender.com/api/$1"
       }
     ]
   }
+  
   

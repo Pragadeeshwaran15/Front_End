@@ -1,9 +1,8 @@
 {
-    "routes": [
+    "rewrites": [
       {
-        "src": "/api/(.*)",
-        "dest": "https://back-end-1-wa5r.onrender.com/api/$1",
-        "methods": ["GET", "POST", "PUT", "DELETE"]
+        "source": "/api/(.*)",
+        "destination": "https://back-end-1-wa5r.onrender.com/api/$1"
       }
     ]
   }
